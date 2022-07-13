@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-13T21:43:41" hostname="DESKTOP-I3M7334" time="2.578">
+  <properties/>
+  <testcase name="getInfoPet()" classname="TestRest" time="2.578"/>
+  <system-out><![CDATA[Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/25
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=25
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 13 Jul 2022 21:43:45 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 25,
+    "name": "Буся",
+    "photoUrls": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "status": "available"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
